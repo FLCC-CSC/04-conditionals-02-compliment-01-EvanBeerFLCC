@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Evan Beer
+# DATE: 3/3/26
+# BRIEF DESCRIPTION: Asks the user if they want a compliment and either givers them one or not but either way it thanks the user for playing.
 
 
 
@@ -13,7 +13,19 @@
 
 
 
-########## ENTER YER CODE BELOW THIS LINE ##########
+########## ENTER YOUR CODE BELOW THIS LINE ##########
+
+def main():
+    compliment_giver()
+
+def compliment_giver():
+    Choice = input('Would you like a compliment? ')
+    
+    if Choice == 'yes':
+        print("You have wonderful eyes.")
+    print('Thank you for playing.')
+
+main()
 
 
 
@@ -22,9 +34,7 @@
 
 
 
-
-
-########### END YER CODE ABOVE THIS LINE ###########
+########### END YOUR CODE ABOVE THIS LINE ###########
 
     
 
@@ -67,11 +77,12 @@ Thank you for playing.
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
 
-
+6
 
 
 2. What was the hardest part of this lab?
 
+Trying to figure out how to get the second print statement to work even if the user doesnt want a compliment.
 
 
 
